@@ -15,6 +15,7 @@
 		8084EA872223820F00369E73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8084EA862223820F00369E73 /* SecondViewController.m */; };
 		8084EA8A2223821800369E73 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8084EA892223821800369E73 /* ThirdViewController.m */; };
 		8084EA8D2223823D00369E73 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8084EA8C2223823D00369E73 /* FourthViewController.m */; };
+		8084EA9022238CF000369E73 /* ElemeiyouManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8084EA8F22238CF000369E73 /* ElemeiyouManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		8084EA892223821800369E73 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		8084EA8B2223823D00369E73 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		8084EA8C2223823D00369E73 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		8084EA8E22238CF000369E73 /* ElemeiyouManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElemeiyouManager.h; sourceTree = "<group>"; };
+		8084EA8F22238CF000369E73 /* ElemeiyouManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElemeiyouManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				8084EA892223821800369E73 /* ThirdViewController.m */,
 				8084EA8B2223823D00369E73 /* FourthViewController.h */,
 				8084EA8C2223823D00369E73 /* FourthViewController.m */,
+				8084EA8E22238CF000369E73 /* ElemeiyouManager.h */,
+				8084EA8F22238CF000369E73 /* ElemeiyouManager.m */,
 			);
 			path = Elemeiyou;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8084EA9022238CF000369E73 /* ElemeiyouManager.m in Sources */,
 				8084EA872223820F00369E73 /* SecondViewController.m in Sources */,
 				8084EA8A2223821800369E73 /* ThirdViewController.m in Sources */,
 				8084EA7C2223813200369E73 /* main.m in Sources */,
