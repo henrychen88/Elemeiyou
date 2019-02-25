@@ -68,12 +68,20 @@
 		8084EA6B2223812F00369E73 /* Elemeiyou */ = {
 			isa = PBXGroup;
 			children = (
+				8084EA912223C87E00369E73 /* Files */,
 				8084EA6C2223812F00369E73 /* AppDelegate.h */,
 				8084EA6D2223812F00369E73 /* AppDelegate.m */,
 				8084EA752223813200369E73 /* Assets.xcassets */,
 				8084EA772223813200369E73 /* LaunchScreen.storyboard */,
 				8084EA7A2223813200369E73 /* Info.plist */,
 				8084EA7B2223813200369E73 /* main.m */,
+			);
+			path = Elemeiyou;
+			sourceTree = "<group>";
+		};
+		8084EA912223C87E00369E73 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				8084EA822223820400369E73 /* FirstViewController.h */,
 				8084EA832223820400369E73 /* FirstViewController.m */,
 				8084EA852223820F00369E73 /* SecondViewController.h */,
@@ -85,7 +93,7 @@
 				8084EA8E22238CF000369E73 /* ElemeiyouManager.h */,
 				8084EA8F22238CF000369E73 /* ElemeiyouManager.m */,
 			);
-			path = Elemeiyou;
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
