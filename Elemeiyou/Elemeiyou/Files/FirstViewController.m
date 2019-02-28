@@ -8,6 +8,8 @@
 
 #import "FirstViewController.h"
 
+#import <Masonry.h>
+
 @interface FirstViewController ()
 
 @end
@@ -19,6 +21,15 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor grayColor];
+    
+    UIView *rectangle = [[UIView alloc] init];
+    rectangle.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:rectangle];
+
+    [rectangle mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.width.height.mas_equalTo(100);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
